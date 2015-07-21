@@ -20,4 +20,4 @@ to HTML. The console message will appear at the bottom of the window.
 clog('Here I am');
 ```
 
-
+![Screenshot](https://raw.githubusercontent.com/cdmedia/clog.js/master/demo/clogjs-screen.png)
