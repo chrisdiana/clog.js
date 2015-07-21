@@ -1,7 +1,7 @@
 ##CLog.js
 
-Use this simple library to render `console.log` messages to the front-end by.
-"Why?! We have DevTools!", you ask. This can come in handy if you are debugging on an
+Use this simple library to render `console.log` messages to the front-end.
+*"Why?! We have DevTools!"*, you ask. This can come in handy if you are debugging on an
 online code playground (like JSFiddle, CodePen).
 
 ###How to use it
