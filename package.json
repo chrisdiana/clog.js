@@ -1,0 +1,24 @@
+{
+  "name": "clog.js",
+  "version": "1.0.0",
+  "description": "Simple library to render 'console.log' messages to the front-end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cat ./src/clog.js | ./node_modules/.bin/uglifyjs --compress --comments --mangle | bannerjs -o > dist/clog.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdiana/clog.js.git"
+  },
+  "author": "Chris Diana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisdiana/clog.js/issues"
+  },
+  "homepage": "https://github.com/chrisdiana/clog.js#readme",
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "uglify-js": "^3.4.9"
+  }
+}

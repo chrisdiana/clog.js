@@ -3,13 +3,23 @@
 <head>
   <meta charset="utf-8">
   <title>clog.js demo</title>
+<style>
+  #clog-handle:hover {
+    background: #747474;
+    cursor: grab;
+  }
+</style>
 </head>
 <body>
 	<h1>Some great website</h1>
 	<p>laddie dah....</p>
-	<script src="../dist/clog.min.js"></script>
+	<script src="../dist/clog.js"></script>
 	<script>
-		clog("I'm not talking bout shoes.");
+    var c = new Clog();
+    c.log('test');
+    c.log({'test': 'testing'});
+    c.log({'testing': 'testing', 'test': 'sdfasdfasdf'});
+		//clog("I'm not talking bout shoes.");
 	</script>
 </body>
 </html>
