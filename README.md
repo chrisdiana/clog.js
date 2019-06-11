@@ -17,7 +17,7 @@ Now call `clog()` when you want to `console.log()` something and have it render
 to HTML. The console message will appear at the bottom of the window.
 
 ```javascript
-clog('I\'m not talking bout shoes.);
+clog('I\'m not talking bout shoes.');
 ```
 
 ![Screenshot](https://raw.githubusercontent.com/cdmedia/clog.js/master/demo/clogjs-screen.png)
